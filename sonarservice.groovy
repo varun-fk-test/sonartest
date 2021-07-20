@@ -2,7 +2,7 @@
 
 
 stage('Sonar Code Analysis'){
-  sonarCodeAnalysisTesting(
+  sonarCodeAnalysisMaven(
     service: "$SERVICE",
     sonarprojectkey: "$SONARPROJECTKEY",
     sonarhosturl: "$SONARHOSTURL",
